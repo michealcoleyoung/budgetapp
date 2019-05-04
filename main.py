@@ -1,4 +1,8 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3, 4])
-plt.ylabel('some numbers')
-plt.show()
+from appJar import gui
+
+
+app = gui("Budget App")
+
+app.addLabel("Test")
+
+app.go()
